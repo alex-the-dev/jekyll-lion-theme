@@ -1,0 +1,18 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+  
+$refills-max-width: 100%;
+$head-icons-size: 100px;
+
+@import "bourbon/bourbon";
+@import "base";
+@import "neat/neat";
+@import "fa/font-awesome";
+@import "vars";
+@import "animations";
+@import "globals";
+@import "header";
+@import "post-list";
+

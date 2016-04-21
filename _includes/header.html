@@ -1,0 +1,92 @@
+</header>
+<header>
+    <div class="hero">
+        <div class="hero-inner">
+            <a href="" class="hero-logo"><img src="{{site.baseurl}}/img/{{ site.heroicon }}" alt="Logo Image"></a>
+            <div class="hero-copy">
+                <a href="{{ site.baseurl }}" ><h1>{{ site.title }}</h1></a>
+                <p>{{ site.tagline }}<p>
+                <div id="icon-wrapper">
+                    {% if site.github %} 
+                    <a href="{{ site.github }}" target="_blank"><i class="fa fa-github social-icon" aria-hidden="true"></i></a>
+                    {% endif %}
+                    {% if site.dribble %}
+                    <a href="{{ site.dribble }}" target="_blank"><i class="fa fa-dribbble social-icon" aria-hidden="true"></i></a>
+                    {% endif %}
+                    {% if site.twitter %}
+                    <a href="{{ site.twitter }}" target="_blank"><i class="fa fa-twitter social-icon" aria-hidden="true"></i></a>
+                    {% endif %}
+                    {% if site.reddit %}
+                    <a href="{{ site.reddit }}" target="_blank"><i class="fa fa-reddit-alien social-icon" aria-hidden="true"></i></a>
+                    {% endif %}
+                    {% if site.googleplus %}
+                    <a href="{{ site.googleplus }}" target="_blank"><i class="fa fa-google-plus social-icon" aria-hidden="true"></i></a>
+                    {% endif %}
+                    {% if site.facebook %}
+                    <a href="{{ site.facebook }}" target="_blank"><i class="fa fa-facebook social-icon" aria-hidden="true"></i></a>
+                    {% endif %}
+                    {% if site.instagram %}
+                    <a href="{{ site.instagram }}" target="_blank"><i class="fa fa-instagram social-icon" aria-hidden="true"></i></a>
+                    {% endif %}
+                    {% if site.pinterest %}
+                    <a href="{{ site.pinterest }}" target="_blank"><i class="fa fa-pinterest social-icon" aria-hidden="true"></i></a>
+                    {% endif %}
+                    {% if site.codepen %}
+                    <a href="{{ site.codepen }}" target="_blank"><i class="fa fa-codepen social-icon" aria-hidden="true"></i></a>
+                    {% endif %}
+                    {% if site.linkedin %}
+                    <a href="{{ site.linkedin }}" target="_blank"><i class="fa fa-linkedin social-icon" aria-hidden="true"></i></a>
+                    {% endif %}
+                    {% if site.tumblr %}
+                    <a href="{{ site.tumblr }}" target="_blank"><i class="fa fa-tumblr social-icon" aria-hidden="true"></i></a>
+                    {% endif %}
+                    {% if site.vine %}
+                    <a href="{{ site.vine }}" target="_blank"><i class="fa fa-vine social-icon" aria-hidden="true"></i></a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+<header class="navigation" role="banner">
+    <div class="navigation-wrapper">
+        <a href="javascript:void(0)" class="logo">
+            <img src="{{ site.baseurl }}/img/{{ site.navicon }}" alt="Logo Image">
+        </a>
+        <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">MENU</a>
+        <nav role="navigation">
+            <ul id="js-navigation-menu" class="navigation-menu show">
+                <!--Nav Loop-->
+                {% for my_page in site.pages %} {% if my_page.title %}
+                <li class="nav-link"><a href="{{ my_page.url | prepend: site.baseurl }}">{% if my_page.icon %}<i class="fa {{my_page.icon}} nav-icon" aria-hidden="true"></i>{% endif %} {{ my_page.title }}</a></li>
+                {% endif %} {% endfor %}
+                <!--Nav Loop End-->
+            </ul>
+        </nav>
+        <div class="navigation-tools">
+            <div class="search-bar">
+                <form role="search">
+                    <input type="search" placeholder="Enter Search" />
+                    <button type="submit">
+                        <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/search-icon.png" alt="Search Icon">
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+<nav class="site-nav">
+    <a href="#" class="menu-icon">
+
+    </a>
+
+    <div class="trigger">
+
+    </div>
+</nav>
