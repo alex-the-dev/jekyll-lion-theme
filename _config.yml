@@ -55,3 +55,11 @@ sass:
     sass_dir: _sass
     
 excerpt_separator: ""
+
+
+prefixbox:
+  filename: "/prefixbox.csv" #the output filename 
+  exclude:  # List of files to exclude from the search results
+    -atom.xml
+    -feed.xml
+  include: # List of files you want to explicitly include as posts

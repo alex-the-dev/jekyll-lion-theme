@@ -1,3 +1,66 @@
+
+<!--<div class="wrapper-for-content-outside-of-footer">
+   Uncomment this whole section for a sticky footer. The content of the page should be inside of this .wrapper-for-content-outside-of-footer
+</div>-->
+
+<footer class="footer-2" role="contentinfo">
+  <div class="footer-logo">
+    <a href=""><img src="{{site.baseurl}}/img/{{ site.heroicon }}" alt="Logo Image"></a>
+  </div>
+{% if site.footernav %} 
+    <ul>
+    {% for my_page in site.pages %} {% if my_page.title %}
+                <li><a href="{{ my_page.url | prepend: site.baseurl }}">{% if my_page.icon %}<i class="fa {{my_page.icon}} nav-icon" aria-hidden="true"></i>{% endif %} {{ my_page.title }}</a></li>
+                {% endif %} {% endfor %}
+    </ul>
+{% endif %}
+    <div class="footer-secondary-links">
+      <ul>
+        <li><a href="javascript:void(0)">Terms and Conditions</a></li>
+        <li><a href="javascript:void(0)">Privacy Policy</a></li>
+      </ul>
+
+      <ul class="footer-social">
+       {% if site.github %} 
+                    <a href="{{ site.github }}" target="_blank"><i class="fa fa-github footer-icon" aria-hidden="true"></i></a>
+                    {% endif %}
+                    {% if site.dribble %}
+                    <a href="{{ site.dribble }}" target="_blank"><i class="fa fa-dribbble footer-icon" aria-hidden="true"></i></a>
+                    {% endif %}
+                    {% if site.twitter %}
+                    <a href="{{ site.twitter }}" target="_blank"><i class="fa fa-twitter footer-icon" aria-hidden="true"></i></a>
+                    {% endif %}
+                    {% if site.reddit %}
+                    <a href="{{ site.reddit }}" target="_blank"><i class="fa fa-reddit-alien footer-icon" aria-hidden="true"></i></a>
+                    {% endif %}
+                    {% if site.googleplus %}
+                    <a href="{{ site.googleplus }}" target="_blank"><i class="fa fa-google-plus footer-icon" aria-hidden="true"></i></a>
+                    {% endif %}
+                    {% if site.facebook %}
+                    <a href="{{ site.facebook }}" target="_blank"><i class="fa fa-facebook footer-icon" aria-hidden="true"></i></a>
+                    {% endif %}
+                    {% if site.instagram %}
+                    <a href="{{ site.instagram }}" target="_blank"><i class="fa fa-instagram footer-icon" aria-hidden="true"></i></a>
+                    {% endif %}
+                    {% if site.pinterest %}
+                    <a href="{{ site.pinterest }}" target="_blank"><i class="fa fa-pinterest footer-icon" aria-hidden="true"></i></a>
+                    {% endif %}
+                    {% if site.codepen %}
+                    <a href="{{ site.codepen }}" target="_blank"><i class="fa fa-codepen footer-icon" aria-hidden="true"></i></a>
+                    {% endif %}
+                    {% if site.linkedin %}
+                    <a href="{{ site.linkedin }}" target="_blank"><i class="fa fa-linkedin footer-icon" aria-hidden="true"></i></a>
+                    {% endif %}
+                    {% if site.tumblr %}
+                    <a href="{{ site.tumblr }}" target="_blank"><i class="fa fa-tumblr footer-icon" aria-hidden="true"></i></a>
+                    {% endif %}
+                    {% if site.vine %}
+                    <a href="{{ site.vine }}" target="_blank"><i class="fa fa-vine footer-icon" aria-hidden="true"></i></a>
+                    {% endif %}
+      </ul>
+    </div>
+</footer>
+
 <!--
 <footer class="site-footer">
 
