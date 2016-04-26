@@ -2390,6 +2390,14 @@ body:before {
     width: 40px; }
   to {
     width: 100px; } }
+html {
+  height: 100%; }
+
+body {
+  position: relative;
+  padding-bottom: 5rem;
+  min-height: 100%; }
+
 a {
   text-decoration: none; }
 
@@ -2768,7 +2776,11 @@ header.navigation {
   background: #1c3653;
   display: inline-block;
   padding: 1.5em;
-  width: 100%; }
+  width: 100%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0; }
   .footer-2 .footer-logo {
     margin-bottom: 1em;
     margin-right: 1em; }
