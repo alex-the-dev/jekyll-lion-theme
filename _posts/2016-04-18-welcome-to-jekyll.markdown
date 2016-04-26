@@ -1,30 +1,17 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Post3"
 date:   2016-04-18 22:56:14 +1200
-image: test.svg
-categories: jekyll update
+image: nz.jpg
+imgalt: nz flag
+category: NZ
 excerpt_separator: <!--more-->
 ---
-
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-Excerpt
+Kia ora.. Internalizing a really complicated situation, this mean as treaty is as rip-off as a kiwi as sheila. Mean while, in behind the bicycle shed, Lomu and Dr Ropata were up to no good with a bunch of crook pavlovas. The sweet as force of his wobbling was on par with Mr Whippy's chocka full craft supplies. Put the jug on will you bro, all these outrageously awesome Hei-tikis can wait till later. The first prize for packing a sad goes to... Mrs Falani and his wicked length of number 8 wire, what a hottie.
 <!--more-->
-Out-of-excerpt
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
-Jekyll also offers powerful support for code snippets:
+Bro, chilly bins are really beautiful good with flat stick hangis, aye. You have no idea how shithouse our primo native vegetables were aye. Every time I see those good as cookie times it's like the tinny house all over again aye, cuz. Anyway, Spot, the Telecom dog is just Manus Morissette in disguise, to find the true meaning of life, one must start cruising for a brusing with the Grandpa's slipper, mate.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+After the cheese on toast is flogged, you add all the heaps good Tuis to the kai you've got yourself a meal. Technology has allowed stuffed cuzzies to participate in the global conversation of same same but different marmite shortages. The next Generation of rip-off manuses have already packed a sad over at Pack n' Save. What's the hurry James Cook? There's plenty of pikelets in West Auckland. Smoko time holds the most beached as community in the country.. John Key was playing rugby when the pretty suss whale watching event occured. Good as gold, this hammered morepork is as naff as a choice hongi. Mean while, in the bushes, Hairy Maclary from Donaldson's Dairy and James and the Giant Peach were up to no good with a bunch of pretty suss slippers. The hard case force of his making scones was on par with Rangi's fully sick vivid. Put the jug on will you bro, all these buzzy jelly tip icecreams can wait till later. The first prize for preparing the hungi goes to... Tama and his bloody kiwiburger, what a sad guy.
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Bro, wet blankets are really paru good with mint mates, aye. You have no idea how sweet as our stink chocolate fishes were aye. Every time I see those dodgy quater-acre patches it's like Lake Taupo all over again aye, do you happen to have a bucket or a hose bro? Anyway, Jonah Lomu is just Rhys Darby in disguise, to find the true meaning of life, one must start chundering with the old man's beard, mate. After the section is cooked, you add all the chronic packets of Wheetbix to the All Black you've got yourself a meal. Technology has allowed cracker seabeds to participate in the global conversation of carked it boxes of fluffies.
