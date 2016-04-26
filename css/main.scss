@@ -8,11 +8,16 @@ $head-icons-size: 100px;
 
 @import "bourbon/bourbon";
 @import "base";
-@import "neat/neat";
+//@import "post-list";
+$visual-grid: true;
+@import "neat";
+//@import "neat/neat-helpers";
+//@import "neat/grid/span-columns";
 @import "fa/font-awesome";
 @import "vars";
 @import "animations";
 @import "globals";
 @import "header";
 @import "post-list";
-
+@import "footer";
+@import "post";
